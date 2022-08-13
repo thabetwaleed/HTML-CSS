@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.mainDiv{
+    background-color: rgb(200, 200, 210);
+}
+button{
+    border-radius: 3px;
+    margin-left: 4px;
+}
+.LeftSection
+{
+    background-color: rgb(151, 151, 240);
+    text-align: center;
+    width: 28%;
+    height: 100vh;
+    width:250px;  
+    max-width:250px;   
+    display: inline-block;
+      justify-content: center;
+    align-items: center;
+     
+}
+.leftContent{
+     vertical-align: auto;
+     position: relative;
+     top: 50%;
+     display: inline-block;
+     
+     
+}
+.mainContent1{
+
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(218, 231, 199);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+     
+}
+.MainPage{
+    flex-grow: 1;
+    flex-basis: 100vh;
+}
+
+.flex1{
+    display: flex;
+}
+.mainContent
+{
+    flex-grow: 1;
+    flex-basis: 10vh;
+}
+
+.custom
+{
+    flex-direction: column;
+    display: flex;
+
+}
+.para{
+    justify-content: center;
+    align-items: center;
+}
+
+.FB1{
+    background-color: rgb(4, 4, 107);
+    color: rgb(255, 255, 255);
+    flex-basis: 62px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.FB9{
+            display: flex;
+            align-items: center;
+            padding-left: 5%;
+}

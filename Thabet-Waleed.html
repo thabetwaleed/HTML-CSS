@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Training</title>
+</head>
+<body>
+    <header class="mainDiv">
+        <p>Header Section height is dynamic with minimum height 60px. depends on its content.        </p>
+   <button onclick="addContent()" >Add Content</button>
+   <button onclick="remove())">Remove Dynamic Content</button>
+    <div id="cont">Dynamic Content</div>    
+    </header>
+
+    <div class="MainPage flex">
+    <div class="LeftSection flex1">
+      <p class="para">LeftSection</p>  
+    </div>
+
+    <div class="mainContent custom">
+    <div class="mainContent1">Main Content</div>
+    <div class="mainContent1">Main Content</div>
+      </div>
+</div>
+
+<footer class="FB1 FB9">
+    Footer Section
+</footer>
+
+
+<script>
+    var counter=1;
+    
+    function addContent(){
+
+ 
+        document.getElementById("cont").innerHTML+="Line"+counter;
+
+        const p=document.createElement("p");
+            p.classList
+        counter++;
+    }
+    
+</script>
+
+</body>
+</html>
